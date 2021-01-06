@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="fr">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="CV Lisa" />
+		<meta name="keywords" content="CV, portfolio, web, developpeuse, html, css, php, site, internet, javascript, jquery, angular" />
+		<meta name="author" content="EL SOROGY Lisa" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no" />
+		<title>Portfolio Lisa</title>
+    <link rel="icon" href="images/avatar.jpg" type="image/jpg" sizes="16x16"> 
+    <!-- Icon -->
+
+    <!-- Fonts -->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="fonts/simple-line-icons.css">		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;700&display=swap" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Cabin&family=Syne+Mono&display=swap" rel="stylesheet">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/responsive.css">
+	</head>
+<body>
+<header>
+<!-- Burger Menu if small screen -->
+  <div class="burgerMenu">
+    <div class="menu">
+      <span><img class="imgBurger" src="images/menu.png" alt=""></span>
+    </div>
+    <nav class="navBarMenu">    
+      <ul class="navList">
+        <li class="apropos"><a href="#main1Anchor">A PROPOS DE MOI</a></li>
+        <li><a href="#main2Anchor">SERVICES</a></li>
+        <li><a href="#resumeAnchor">CV</a></li>
+        <li><a href="#main4Anchor">CONTACT</a></li>
+      </ul>  
+    </nav>
+  </div>
+<!-- Nav bar classic -->
+  <div class="navContainer">
+    <nav class="navBarAccueil">	
+<!-- <img src="../Portfolio Lisa/images/user.png" alt=""> -->
+      <ul class="navList">
+        <li><a href="#main1Anchor">A PROPOS DE MOI</a></li>
+        <li><a href="#main2Anchor">COMPETENCES</a></li>
+        <li><a href="#resumeAnchor">CV</a></li>
+        <li><a href="#main4Anchor">CONTACTS</a>		
+        </li>
+      </ul>  
+    </nav>
+    <div class="userIcon">
+
+    </div>
+  </div>
+</header>
+<main>
+  <div class="mainTop">
+    <div class="presentation">
+      <div class="bonjour">Bonjour je suis </div>
+      <div class="name">
+        <div class="lisa">LISA</div>  
+        <div class="elsorogy">EL SOROGY</div>
+      </div>
+      <div class="dev">Developpeuse web</div>
+    </div>
+    <div class="iconeReseaux">
+      <a style="display:block" href="https://www.linkedin.com/in/lisa-el-sorogy/">
+      <div>
+        <img class="linkedinBleu" src="images/linkedin.png" alt="">
+        <img class = "linkedinBlanc" src="images/linkedinblanc.png" alt="" class="linkedinBlanc">
+      </div>
+      </a>	
+    </div>
+  </div>
+
+  <a class="anchor" id="main1Anchor"></a>
+  <div id="main1">
+    <div class="centre">
+      <div class="lisa">
+        <img class="lisa-picture" src="images/Photo_id.png" alt="Photo profil">
+      </div>
+      <div class="hiGuys">
+        <div class="paragraphe">
+          <div class="hi">Bonjour à tous,</div>
+          <div class="para">Pendant mon exercice en cabinet en tant que pédicure-podologue libérale, j'ai développé un atrait pour le développement après avoir suivi une formation openclassroom HTML/CSS. Lorsque j'ai pris la décision d'arreter mon activité c'est tout naturellement que j'ai décidé de me reconvertir dans le developpement et plus particulièrement le développement web. J'ai par la suite suivi une formation intensive de developpeuse WEB chez webforce 3 en partenariat avec Social Builder. </div>
+        </div>
+        
+        <div class="presentation">
+          <div class="colonneGauche">
+            <p>Nom</p>
+            <p>Age</p>
+            <p>Experience</p>
+            <p>Pays</p>
+            <p>Localisation</p>
+            <p>Email</p>
+            <p>Portable</p>
+          </div>
+          <div class="colonneMilieu">
+            <p>:</p>
+            <p>:</p>
+            <p>:</p>
+            <p>:</p>
+            <p>:</p>
+            <p>:</p>
+            <p>:</p>
+          </div>
+          <div class="colonneDroite">
+            <p>EL SOROGY Lisa</p>
+            <p>30 ans</p>
+            <p>Junior</p>
+            <p>France</p>
+            <p>Rosny sous bois</p>
+            <p>lisa.elsorogy@hotmail.fr</p>
+            <p>0627722655</p>
+          </div>
+      
+        </div>
+        <div class="boutons">
+          <button class="telecharger"><a href="cvlisa.pdf" download="cvlisa.pdf">TELECHARGER MON CV</a></button>
+          
+          <button class="contact"><a href="mailto:lisa.elsorogy@hotmail.fr" download="cvlisa.pdf"> ME CONTACTER</button></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <a class="anchor" id="main2Anchor"></a>
+  <div id="main2">
+    <div class="centre2">
+      <div id="what">COMPETENCES</div>
+
+      <div class="conteneur">
+
+        <div class="conteneurCentre">
+          <div class="img">
+            <img src="images/carre.png" alt="">
+          </div>
+          <div class="titreConteneur">
+            DEVELOPPEMENT FRONT-END 
+          </div><br>
+          <div class="txt">
+            HTML5/CSS3, Bootstrap 4<br> 
+            Responsive web design, SEO<br> Javascript, jQuery<br> 
+            Angular<br> 
+            Intégration WORDPRESS
+          </div>
+        </div>
+        <div class="conteneurCentre">
+          <div class="img">
+            <img src="images/carre.png" alt="">
+          </div>
+          <div class="titreConteneur">
+            DEVELOPPEMENT BACK END
+          </div><br>
+          <div class="txt">
+            SQL/BDD<br>
+            Git/GitHub <br> 
+            PHP, PHP Orienté Objet<br>  MVC/Symfony<br>
+            AJAX
+          </div>
+        </div>
+        <div class="conteneurCentre">
+          <div class="img">
+            <img src="images/carre.png" alt="">
+          </div>
+          <div class="titreConteneur">MES PROJETS</div><br>
+          <div class="txt">Maquettage d'une application sur adobe XD</div>
+          <div class="txt">Projet de fin de formation : <br>création d'un site web type deliveroo de particuliers à particuliers</div>
+
+        </div>
+        <div class="conteneurCentre">
+          <div class="img">
+            <img src="images/carre.png" alt="">
+          </div>
+          <div class="titreConteneur">
+            CERTIFICATIONS
+          </div><br>
+          <div class="formation">
+            OPENCLASSROOM : 
+          </div>
+          <div class="txt">
+            HTML5/CSS <br>
+            Fondamentaux de swift <br>
+            Introduction à iOS
+          </div>
+          <div class="formation">
+            UDEMY : 
+          </div> 
+          <div class="txt">
+            Introduction au WEB DESIGN
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Resume Section Start -->
+  <a class="anchor" id="resumeAnchor"></a>
+  <div id="resume" class="section-padding">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="education">
+            <ul class="timeline">
+              <li>
+                <i class="icon-graduation"></i>
+                <h2 class="timelin-title">SCOLARITE</h2>
+              </li>
+              <li>
+                <div class="content-text">
+                  <h3 class="line-title">Formation de développeuse WEB</h3>
+                  <span>202O</span>
+                  <p class="line-text">WEBFORCE 3, Télétravail</p>
+                </div>
+              </li>
+              <li>
+                <div class="content-text">
+                  <h3 class="line-title">Diplôme d'état de pédicure-podologue</h3>
+                  <span>2015</span>
+                  <p class="line-text">AFREP, Paris</p>
+                </div>
+              </li>
+              <li>
+                <div class="content-text">
+                  <h3 class="line-title">1ère année de PCEP1, pharmacie</h3>
+                  <span>2009-2011</span>
+                  <p class="line-text">PARIS V, DESCARTES.</p>
+                </div>
+              </li>
+              <li>
+                <div class="content-text">
+                  <h3 class="line-title">Bac Scientifique</h3>
+                  <span>2008</span>
+                  <p class="line-text">Lycée Turgot, Paris</p>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6">
+          <div class="experience">
+            <ul class="timeline">
+              <li>
+                <i class="icon-briefcase"></i>
+                <h2 class="timelin-title">EXPERIENCES</h2>
+              </li>
+              <li>
+                <div class="content-text">
+                  <h3 class="line-title">Pédicure-Podologue dans divers cabinets paramédicaux et EHPAD</h3>
+                  <span>Juil 2017 - Janv 2020</span>
+                  <p class="line-text">Acquis : Communication inter et intra équipe <br> Gestion de cabinet (comptabilité, organisation)<br> Gestion du stress<br>Gestion de situation de crise
+                  </p>
+                </div>
+              </li>
+              <li>
+                <div class="content-text">
+                  <h3 class="line-title">Hotesse de vente et de caisse, ETAM</h3>
+                  <span>Fev 2009- Juil 2012</span>
+                  <p class="line-text"></p>
+                </div>
+              </li>
+        
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Resume Section End -->
+
+  <a class="anchor" id="main4Anchor"></a>
+  <div id="main4">
+    <div class="containerMain4">
+      <div class="sansMap">
+        <div class="contactezMoi">
+          <h2>FORMULAIRE DE CONTACT</h2>
+          <form method="post" action="cible.php">
+            <div class="nomMail">
+              <input type="text" name="nom" id="nom" placeholder="Nom"/>
+              <input type="text" name="mail" id="mail" placeholder="Email"/>
+            </div>
+            <div class="objet">
+              <input type="text" name="objet" id="objet" placeholder="Objet"/>
+            </div>
+            <div class="zoneTexte">
+              <textarea name="story" id="story" cols="30" rows="5" placeholder="Votre Message"></textarea>
+            </div>
+            <button class="validation" name="validation">ENVOYER</button>
+          </form>
+        </div>
+        
+        <div class="containerAdress">
+          <h2>ME CONTACTER</h2>
+                <div class="footer-right-contact">
+                  <div class="single-contact">
+                    <div class="contact-icon">
+                      <i class="fa fa-map-marker"></i>
+                    </div>
+                    <p>Rosny-sous-bois, île de France</p>
+                  </div>
+                  <div class="single-contact">
+                    <div class="contact-icon">
+                      <i class="fa fa-envelope"></i>
+                    </div>
+                    <p><a href="mailto:lisa.elsorogy@hotmail.fr">lisa.elsorogy@hotmail.fr</a></p>
+                  </div>
+                  <div class="single-contact">
+                    <div class="contact-icon">
+                      <i class="fa fa-phone"></i>
+                    </div>
+                    <p><a href="#">06.27.72.26.55</a></p>
+                  </div>
+                </div>
+        </div>
+      </div>
+      <div class="map">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2624.0660824230445!2d2.4821639156750073!3d48.87601677928926!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e612ebaa6cc863%3A0x6cbfb5b5f3b56957!2s52%20Rue%20Richard%20Gardebled%2C%2093110%20Rosny-sous-Bois!5e0!3m2!1sfr!2sfr!4v1609253443935!5m2!1sfr!2sfr" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+      </div>
+    </div>
+
+  </div>
+</main>
+<footer>
+  <div class="iconeReseaux">
+    <a style="display:block" href="https://www.linkedin.com/in/lisa-el-sorogy/">
+    <div>
+      <img class="linkedinBleu" src="images/linkedin.png" alt="">
+      <img class = "linkedinBlanc" src="images/linkedinblanc.png" alt="" class="linkedinBlanc">
+    </div>
+    </a>	
+    </div>
+</footer>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
