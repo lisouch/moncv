@@ -30,6 +30,9 @@ $(".apropos").click(function(){
 //        MENU BURGER
 $(".navBarMenu").hide();
 $(".linkedinBleu").hide();
+$(".gitBleu").hide();
+
+
 // $(".navBar").hide();
 
 
@@ -48,6 +51,14 @@ $(".linkedinBlanc").mouseenter(function(){
 $(".linkedinBlanc").mouseleave(function(){
     $(".linkedinBlanc").attr("src", "images/linkedinblanc.png");
 });
+
+$(".gitBlanc").mouseenter(function(){
+    $(".gitBlanc").attr("src", "images/githubleu.png");
+});
+$(".gitBlanc").mouseleave(function(){
+    $(".gitBlanc").attr("src", "images/githublanc.png");
+});
+    
     
     
 

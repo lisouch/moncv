@@ -138,8 +138,8 @@
     }
       
     /* FOOTER */
-    .linkedinBleu, .linkedinBlanc{
-        margin: 30px;
+    .linkedinBleu, .linkedinBlanc, .gitBleu, .gitBlanc{
+        margin: 30px 10px;
         border: none;
         height: 30px;
         width: 30px;
